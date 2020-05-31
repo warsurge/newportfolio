@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
-import Home from "../src/pages/home"
+import Index from "../src/pages/index"
 import Contact from "../src/pages/contact"
 import Portfolio from "../src/pages/portfolio"
 import "bootswatch/dist/lux/bootstrap.min.css";
@@ -14,8 +14,8 @@ function App() {
       <Nav />
 
       <Switch>
-        <Route exact path={["/newportfolio", "newportfolio/home"]}>
-          <Home />
+        <Route exact path={["/newportfolio", "newportfolio/index"]}>
+          <Index />
         </Route>
         <Route exact path={["/newportfolio/portfolio"]}>
           <Portfolio />
