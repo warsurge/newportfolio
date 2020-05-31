@@ -14,13 +14,13 @@ function App() {
       <Nav />
 
       <Switch>
-        <Route exact path={["/reactportfolio", "reactportfolio/home"]}>
+        <Route exact path={["/newportfolio", "newportfolio/home"]}>
           <Home />
         </Route>
-        <Route exact path={["/reactportfolio/portfolio"]}>
+        <Route exact path={["/newportfolio/portfolio"]}>
           <Portfolio />
         </Route>
-        <Route exact path={["/reactportfolio/contact"]}>
+        <Route exact path={["/newportfolio/contact"]}>
           <Contact />
         </Route>
 
