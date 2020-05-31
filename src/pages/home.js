@@ -10,7 +10,7 @@ function Home(){
             <div className="card text-center" style={{maxWidth: "75%"}}>
                 <div className="card-body">
 
-                    <img src= {Surge} className="rounded float-left" alt="Surge in Chicago" style={{width: "65%"}} />
+                    <img src= {Surge} className="rounded float-left" alt="Surge in Chicago" style={{width: "60%"}} />
                     <p className="card-text">
                         Hello my name is Sergio Bracamontes, I am 32 and originally from Parkersburg,
                         WV but currently reside in Austin, TX.</p>
