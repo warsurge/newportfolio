@@ -1,0 +1,19 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex: auto;
+ }
+ .thumbnail{
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20%;
+ }
